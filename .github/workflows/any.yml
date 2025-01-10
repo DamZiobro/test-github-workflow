@@ -17,4 +17,4 @@ jobs:
 
     - name: Run Command
       shell: bash
-      run: make run-command
+      run: SHELL=/bin/bash make run-command
